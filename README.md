@@ -21,7 +21,7 @@ Task is to build a model that predicts the total ride duration of taxi trips in 
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
 
-< Saurabh Funde > | Avid Reader | Data Science enthusiast |
+<b>Saurabh Funde</b> | Avid Reader | Data Science enthusiast |
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurabhfunde/)
 [![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@saurabh.f)
