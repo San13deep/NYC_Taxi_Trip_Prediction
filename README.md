@@ -2,23 +2,39 @@
 # Problem Description
 Task is to build a model that predicts the total ride duration of taxi trips in New York City. Primary dataset is one released by the NYC Taxi and Limousine Commission, which includes pickup time, geo-coordinates, number of passengers, and several other variables.
 
-**Approch:**
-After loading the given dataset its observed that given dataset has more than 14 lac records and 11 columns. The main goal of this project to predict the trip duration. To get more insights about the dataset, performed Exploratory data analysis to understand the main characteristics of various features. Using existing features, created new features for model building and to interpret data more easily. After analyzing the dataset, it’s found that there was some inconsistent data entries in some features. The passenger count was high like 7 to 9 passengers in taxi. The travelled distance is very less but trip duration is quite high. There were outliers in many features and after analyzing the data, those outliers removed and dataset prepared for model building.
+<p align="center"> 
+  <img src="image/Email Logo.png" alt="Email Logo.png" width="80px" height="80px">
+</p>
+<h1 align="center"> Spam Detector </h1>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
-**Evaluation Metrics Chart:**
+<p align="center"> 
+<img src="gif/spam detector.gif" alt="Animated gif pacman game" height="382px">
+</p>
 
-![image](https://user-images.githubusercontent.com/94966496/165718609-ebb626fb-3626-4921-8c12-251ac8fe6383.png)
+<p>I have developed a spam detector program in Python which classifies given emails as spam or ham using the Naive Bayes approach.</p>
 
-**Conclusion's:**
+<h2> :floppy_disk: Project Files Description</h2>
 
-**Linear Regression:** This is one of simplest model to know the relationship between input and output variable. This model performed very poorly on given dataset.  It predicted **0.60 R2 score** on train and test dataset.
+<p>This Project includes 3 executable files, 3 text files as well as 2 directories as follows:</p>
+<h4>Executable Files:</h4>
+<ul>
+  <li><b>spam_detector.py</b> - Includes all functions required for classification operations.</li>
+  <li><b>train.py</b> - Uses the functions defined in the spam_detector.py file and generates the model.txt file after execution.</li>
+  <li><b>test.py</b> - Uses the functions defined in the spam_detector.py file and, after execution, generates the result.txt as well as evaluation.txt files.</li>
+</ul>
 
-**Decision Tree:** Decision Tree predicted **0.99** for Train dataset and **0.49** for test. It’s overfitting model.
+<h4>Output Files:</h4>
+<ul>
+  <li><b>model.txt</b> - Contains information about the vocabularies of the train set, such as the frequency and conditional probability of each word in Spam and Ham classes.</li>
+  <li><b>result.txt</b> - Contains information about the classified emails of the test set.</li>
+  <li><b>evaluation.txt</b> - Contains evaluation results table as well as Confusion Matrix of Spam and Ham classes.</li>
+</ul>
 
-**Decision Tree with Hyperparameters Tuning:** Decision tree model is tuned using hyperparameters and it predicted **0.74 and 0.73 R2 score.** The overfitted model got stabilized and improved performance.
-
-**Random Forest:** Random Forest predicted **0.71 R2 score** for train and test dataset.
-
-**XGBoost:** XG Boost predicted good accuracy for train and test dataset. It predicted **0.77 and 0.76 R2 score.**
+<h4>Source Directories:</h4>
+<ul>
+  <li><b>train directory</b> - Includes all emails for the training phase of the program.</li>
+  <li><b>test directory</b> - Includes all emails for the testing phase of the program.</li>
+</ul>
 
 
