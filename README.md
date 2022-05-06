@@ -4,19 +4,12 @@ Task is to build a model that predicts the total ride duration of taxi trips in 
 
 <h2> :floppy_disk: Project Files Description</h2>
 
-<p>This repository includes 1 colab notebook (.ipynb) file and 1 pdf file of project presentation. follows:</p>
+<p>This repository includes 1 colab notebook (.ipynb) file and 1 pdf file of project presentation. </p>
 <h4>About Files:</h4>
 <ul>
-  <li><b>NYC_Taxi_Trip_Time_Prediction_Capstone_Project.ipynb</b> - This file includes Exploratory data Analysis, feature Engineering, feature fcaling and inplemented algorithms for eg. Linear Regression, Decision Tree, XGBoost. </li>
-  <li><b>NYC_PPT</b> -  This is a power point presentation file of project. It includes various visualaized plots and results of various used algorithms. </li>
-
-<h4>Output Files:</h4>
-<ul>
-  <li><b>model.txt</b> - Contains information about the vocabularies of the train set, such as the frequency and conditional probability of each word in Spam and Ham classes.</li>
-  <li><b>result.txt</b> - Contains information about the classified emails of the test set.</li>
-  <li><b>evaluation.txt</b> - Contains evaluation results table as well as Confusion Matrix of Spam and Ham classes.</li>
-</ul>
-
+  <li><b>NYC_Taxi_Trip_Time_Prediction_Capstone_Project.ipynb</b> - This file includes Exploratory data Analysis, feature engineering, feature scaling and implemented algorithms for eg. <b>Linear Regression, Decision Tree, XGBoost.</b></li>
+  <li><b>NYC_PPT</b> -  This is a power point presentation file of a project. It includes various visualaized plots and results of various used algorithms. </li>
+  
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
