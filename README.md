@@ -7,22 +7,14 @@ Task is to build a model that predicts the total ride duration of taxi trips in 
 <p>This repository includes 1 colab notebook (.ipynb) file and 1 pdf file of project presentation. </p>
 <h4>About Files:</h4>
 <ul>
-  <li><b>NYC_Taxi_Trip_Time_Prediction_Capstone_Project.ipynb</b> - This file includes Exploratory data Analysis, feature engineering, feature scaling and implemented algorithms for eg. <b>Linear Regression, Decision Tree, XGBoost.</b></li>
+  <li><b>NYC Taxi Trip Time Prediction Capstone Project.ipynb</b> - This file includes Features description, exploratory data Analysis, feature engineering, feature scaling and implemented algorithms for eg. <b>Linear Regression, Decision Tree, XGBoost.</b></li>
   <li><b>NYC_PPT</b> -  This is a power point presentation file of a project. It includes various visualaized plots of EDA using <b>Seaborn and Matplotlib</b>. The result chart of various implemented algorithms. </li>
   
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :clipboard: Execution Instruction</h2>
-<p>The order of execution of the program files is as follows:</p>
-<p><b>1) spam_detector.py</b></p>
-<p>First, the spam_detector.py file must be executed to define all the functions and variables required for classification operations.</p>
-<p><b>2) train.py</b></p>
-<p>Then, the train.py file must be executed, which leads to the production of the model.txt file. 
-At the beginning of this file, the spam_detector has been imported so that the functions defined in it can be used.</p>
-<p><b>3) test.py</b></p>
-<p>Finally, the test.py file must be executed to create the result.txt and evaluation.txt files.
-Just like the train.py file, at the beginning of this file, the spam_detector has been imported so that the functions defined in it can be used.</p>
+<h2> :clipboard: Summary</h2>
+<p> After loading the given dataset its observed that given dataset has more than 14 lac records and 11 columns. The main goal of this project to predict the trip duration. To get more insights about the dataset, performed Exploratory data analysis to understand the main characteristics of various features. Using existing features, created new features for model building and to interpret data more easily. After analyzing the dataset, it’s found that there was some inconsistency in some features. The passenger count was high like 7 to 9 passengers in taxi. The travelled distance is very less but trip duration is quite high. There were many outliers in many columns and after analyzing the data, those outliers removed and dataset prepared for model building.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
