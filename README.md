@@ -8,7 +8,7 @@ Task is to build a model that predicts the total ride duration of taxi trips in 
 <h4>About Files:</h4>
 <ul>
   <li><b>NYC_Taxi_Trip_Time_Prediction_Capstone_Project.ipynb</b> - This file includes Exploratory data Analysis, feature engineering, feature scaling and implemented algorithms for eg. <b>Linear Regression, Decision Tree, XGBoost.</b></li>
-  <li><b>NYC_PPT</b> -  This is a power point presentation file of a project. It includes various visualaized plots and results of various used algorithms. </li>
+  <li><b>NYC_PPT</b> -  This is a power point presentation file of a project. It includes various visualaized plots of EDA using <b>Seaborn and Matplotlib</b>. The result chart of various implemented algorithms. </li>
   
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
