@@ -2,18 +2,13 @@
 # Problem Description
 Task is to build a model that predicts the total ride duration of taxi trips in New York City. Primary dataset is one released by the NYC Taxi and Limousine Commission, which includes pickup time, geo-coordinates, number of passengers, and several other variables.
 
-
-<p>I have developed a spam detector program in Python which classifies given emails as spam or ham using the Naive Bayes approach.</p>
-
 <h2> :floppy_disk: Project Files Description</h2>
 
-<p>This Project includes 3 executable files, 3 text files as well as 2 directories as follows:</p>
-<h4>Executable Files:</h4>
+<p>This repository includes 1 colab notebook (.ipynb) file and 1 pdf file of project presentation. follows:</p>
+<h4>About Files:</h4>
 <ul>
-  <li><b>spam_detector.py</b> - Includes all functions required for classification operations.</li>
-  <li><b>train.py</b> - Uses the functions defined in the spam_detector.py file and generates the model.txt file after execution.</li>
-  <li><b>test.py</b> - Uses the functions defined in the spam_detector.py file and, after execution, generates the result.txt as well as evaluation.txt files.</li>
-</ul>
+  <li><b>NYC_Taxi_Trip_Time_Prediction_Capstone_Project.ipynb</b> - This file includes Exploratory data Analysis, feature Engineering, feature fcaling and inplemented algorithms for eg. Linear Regression, Decision Tree, XGBoost. </li>
+  <li><b>NYC_PPT</b> -  This is a power point presentation file of project. It includes various visualaized plots and results of various used algorithms. </li>
 
 <h4>Output Files:</h4>
 <ul>
